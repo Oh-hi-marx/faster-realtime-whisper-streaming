@@ -1,4 +1,4 @@
-This script allows you to send real time audio via tcp to a faster-whisper model, for low latency speech to text transcription. You should run the sendaudio.py on your remote machine and thetcprealtimefasterwhisper.py script on a Nvidia GPU computer. Use small or medium whipser models if turbo is too big for you GPU. You need to change the dest_ip in sendaudio.py to the IP of your GPU computer running thetcprealtimefasterwhisper.py. 
+This script allows you to send real time audio via tcp to a faster-whisper model, for low latency speech to text transcription. You should run the sendaudio.py on your remote machine and the tcprealtimefasterwhisper.py script on a Nvidia GPU computer. Use small or medium whipser models if turbo is too big for you GPU. You need to change the dest_ip in sendaudio.py to the IP of your GPU computer running thetcprealtimefasterwhisper.py. 
 You can adjust vad_threshold to increase the sensitivity to voice activity/suppress background noise.
 
 
